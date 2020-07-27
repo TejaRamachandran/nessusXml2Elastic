@@ -1,0 +1,61 @@
+{
+    "index_patterns": ["nessus-*"],
+    "mappings": {
+      "properties": {
+        "HOST_END_TIMESTAMP": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "HOST_START_TIMESTAMP": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "LastUnauthenticatedResults": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "message": {
+          "type": "text"
+        },
+        "sinfp-ml-prediction": {
+          "type": "text"
+        },
+        "sinfp-signature": {
+          "type": "text"
+        },
+        "host-ip": {
+          "type": "ip"
+        },
+        "host-rdns": {
+          "type": "keyword",
+          "ignore_above": 256
+        },
+        "vulnerabilty": {
+          "properties": {
+            "description": {
+              "type": "text"
+            },
+            "port": {
+              "type": "integer"
+            },
+            "see_also": {
+              "type": "text"
+             
+            },
+            "severity": {
+              "type": "integer"
+            },
+             "cvss3_base_score": {
+              "type": "integer"
+            }, 
+            "cvss_base_score": {
+              "type": "integer"
+            },
+            "cvss3_temporal_score": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+}
