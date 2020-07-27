@@ -10,7 +10,7 @@ How to Use:
 
 **Note: Use the nessus_vul_elastic_template.json (if you want to build the below graphs/views)
 
-![](https://github.com/TejaRamachandran/nessusXml2Elastic/blob/master/_others/Nessus_View.gif)
-![](https://github.com/TejaRamachandran/nessusXml2Elastic/blob/master/_others/VulnerabilityConnect.gif)
+![](https://github.com/TejaRamachandran/nessusXml2Elastic/blob/master/_others/Nessus_View_1.gif)
+![](https://github.com/TejaRamachandran/nessusXml2Elastic/blob/master/_others/graph.gif)
 
 thanks [@savitha](https://github.com/CGSavitha) for contribution
