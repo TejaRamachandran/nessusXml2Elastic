@@ -1,6 +1,6 @@
 # nessusXml2Elastic
 
-Script to convert XML to JSON &amp; Logstash Conf File to parse JSON file for Elastic also with Elastictemplate.
+Script to convert XML to JSON &amp; Logstash Conf File to parse JSON file for Elasticstack also with Elastictemplate.
 
 How to Use:
 
